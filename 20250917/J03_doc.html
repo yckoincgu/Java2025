@@ -1,0 +1,42 @@
+### Algorithm for the `J03_HelloApp` Program 💻
+
+This algorithm outlines the program's steps, including the intended and unintended behavior that leads to the error.
+
+1.  **Start Program:** Begin execution at the `main` method.
+2.  **Display Information:** Print a blank line, the current JDK version, and a "Hello, World\!" message with a number to the console.
+3.  **Declare Variable:** Create a variable named `frame` of type `J04_Frame` and initialize it to `null`.
+4.  **Attempt Object Creation:** Try to create a new `J04_Frame` object.
+5.  **Handle Exception:** If any exception occurs during the creation of the `J04_Frame` object, catch it and print its stack trace. **Crucially, if an exception is caught, the `frame` variable will remain `null`.**
+6.  **Show Window (Error Point):** Attempt to call the `setVisible(true)` method on the `frame` variable.
+7.  **Crash:** Since the `frame` variable is `null` (because of the failed object creation), the program throws a **`NullPointerException`** and stops executing.
+
+-----
+
+### Pseudocode for the `J03_HelloApp` Program ✍️
+
+This pseudocode translates the logic, including the error-prone parts, into a high-level, human-readable format.
+
+```
+BEGIN
+  CLASS J03_HelloApp
+    METHOD main(args: ARRAY OF STRING)
+      PRINT new line
+      PRINT "Running on JDK " + Runtime.version()
+      SET number TO 42
+      PRINT "Hello, World! The answer is " + number
+
+      DECLARE variable 'frame' of type J04_Frame
+      SET frame TO null
+
+      TRY
+        SET frame TO new J04_Frame()
+      CATCH Exception 'e'
+        PRINT the stack trace of 'e'
+      END TRY
+      
+      // The next line causes an error if the 'frame' variable is null
+      CALL setVisible(true) ON frame
+    END METHOD
+  END CLASS
+END
+```

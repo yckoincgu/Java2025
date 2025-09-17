@@ -1,0 +1,64 @@
+Algorithm for J05_App
+This algorithm describes the logical steps the program follows, focusing on the creation and interaction with objects.
+
+Start: The program begins execution at the main method.
+
+Object Creation:
+
+Create a new instance of the J05_App class, named app1, initializing its name to "iPhone" and model to 14.
+
+Create a second instance of the J05_App class, named app2, initializing its name to "SamSung Galaxy" and model to 7.
+
+Property Modification:
+
+Change the model property of the app1 object to 5.
+
+Method Calls:
+
+Call the displayInfo() method on the app1 object. This will print the values of its name and model properties to the console.
+
+Call the displayInfo() method on the app2 object. This will print the values of its name and model properties to the console.
+
+End: The program completes its execution.
+
+Pseudocode for J05_App ✍️
+This pseudocode translates the program's structure into a high-level, human-readable format, highlighting the class definition and the main execution flow.
+
+BEGIN
+  CLASS J05_App
+    // Declare instance variables
+    DECLARE name AS STRING
+    DECLARE model AS INTEGER
+
+    // Define the constructor
+    METHOD J05_App(name_param: STRING, model_param: INTEGER)
+      SET this.name TO name_param
+      SET this.model TO model_param
+    END METHOD
+
+    // Define a method to get a greeting
+    METHOD getGreeting() RETURNS STRING
+      RETURN "Hello World!"
+    END METHOD
+
+    // Define a method to display info
+    METHOD displayInfo()
+      PRINT "Name: " + this.name
+      PRINT "Model: " + this.model
+    END METHOD
+
+    // Main execution method
+    METHOD main(args: ARRAY OF STRING)
+      // Create two objects
+      CREATE app1 AS NEW J05_App WITH name="iPhone", model=14
+      CREATE app2 AS NEW J05_App WITH name="SamSung Galaxy", model=7
+
+      // Modify a property
+      SET app1.model TO 5
+
+      // Call methods on the objects
+      CALL displayInfo() ON app1
+      CALL displayInfo() ON app2
+    END METHOD
+  END CLASS
+END
