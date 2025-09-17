@@ -34,7 +34,7 @@ This algorithm outlines the fundamental logical flow required for the most basic
     The declaration of the class and method provide the name and type information, 
     allowing the compiler to know that the entity exists
 
-     */
+*/
     
     public static void main(String[] args) {
         System.out.println();
