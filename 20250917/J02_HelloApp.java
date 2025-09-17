@@ -28,6 +28,11 @@ class HelloFrame extends Frame {
 // The main application class to start the program
 public class J02_HelloApp {
     public static void main(String[] args) {
+        System.out.println();
+        System.out.println("Running on JDK " + Runtime.version());
+        int number = 42;
+        System.out.println("Hello, World! The answer is " + number);
+
         HelloFrame frame = new HelloFrame("Hello, AWT!");
         frame.setVisible(true);
     }
