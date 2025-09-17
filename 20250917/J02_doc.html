@@ -1,0 +1,63 @@
+Algorithm for the AWT Program
+This algorithm breaks down the program's logic into a series of logical steps, independent of any specific programming language. It focuses on the creation of a window and the subsequent display of a message within it.
+
+Start Program: The program begins execution at its entry point.
+
+Display System Info: Print messages to the console indicating the current Java Development Kit (JDK) version and a general "Hello, World!" message with a number.
+
+Create a Window: Instantiate a new HelloFrame object, which is a specialized type of window (Frame).
+
+Set the title of the window to "Hello, AWT!".
+
+Set the size of the window to 400x400 pixels.
+
+Handle Window Closing: Add a mechanism to the window so that when the user attempts to close it (e.g., by clicking the "X" button), the program will exit gracefully.
+
+Display the Window: Make the newly created window visible on the screen.
+
+Draw Content: The AWT system automatically handles the redrawing of the window. When this occurs, the program will draw the text "Hello, AWT!" at a specific coordinate (150, 150) on the window's surface.
+
+End Program: The program terminates only when the window is closed by the user.
+
+Pseudocode for the AWT Program
+This pseudocode uses a high-level, human-readable format to represent the structure and flow of the Java program.
+
+BEGIN
+  CLASS HelloFrame INHERITS FROM Frame
+    // Constructor for the window
+    METHOD HelloFrame(title: STRING)
+      CALL parent constructor WITH title
+      SET size TO 400x400
+      
+      // Add a listener to handle window events
+      ADD window listener
+        WHEN window is closing
+          EXIT program
+        END WHEN
+      END ADD
+    END METHOD
+
+    // Method for drawing on the window
+    METHOD paint(graphics: Graphics)
+      DRAW string "Hello, AWT!" at position (150, 150) using graphics object
+    END METHOD
+  END CLASS
+
+  // Main application class
+  CLASS J02_HelloApp
+    // Main method to start the program
+    METHOD main(args: ARRAY OF STRING)
+      PRINT new line
+      PRINT "Running on JDK " + version
+      SET number TO 42
+      PRINT "Hello, World! The answer is " + number
+
+      // Create an instance of our custom window
+      CREATE new HelloFrame object
+      SET its title to "Hello, AWT!"
+      
+      // Make the window visible
+      SET its visibility to TRUE
+    END METHOD
+  END CLASS
+END
