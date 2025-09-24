@@ -1,6 +1,4 @@
-
-
-public class JavaDataTypes {
+public class _01JavaDataTypes {
 public static void main(String[] args) {
         System.out.println("╔══════════════════════════════════════════════════════════════════╗");
         System.out.println("║                   JAVA BASIC DATA TYPES INFO                     ║");
