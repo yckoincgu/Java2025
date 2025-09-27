@@ -1,8 +1,3 @@
-
-
-
-
-
 // Create a class to contain the main method
 public class J03_HelloApp {
 

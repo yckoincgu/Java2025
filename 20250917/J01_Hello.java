@@ -12,7 +12,7 @@ public class J01_Hello {
         will begin running the program's instructions.
     4. Print a Message: Within the main method, 
        issue a command to display the string "Hello, World!" on the console.
-End: The program completes its task and terminates.
+    5. End: The program completes its task and terminates.
 
 This algorithm outlines the fundamental logical flow required for the most basic Java program. The actual code would then implement these steps using Java's specific syntax.
      
@@ -27,7 +27,7 @@ This algorithm outlines the fundamental logical flow required for the most basic
                 PRINT "Hello, World!"
             END METHOD
         END CLASS
-    END
+    4. END
     
 (C) The definition of the class and method, as well as the print statement,
     would be implemented using Java's specific syntax in the actual code.
