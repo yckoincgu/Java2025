@@ -507,7 +507,7 @@ public class _04JVMWebServer {
                         <div class="nav">
                             <a href="/architecture">🏗️ JVM Architecture</a>
                             <a href="/execution">⚡ Execution Flow</a>
-                            <a href="/memory">💾 Memory Management</a>
+                            <!-- <a href="/memory">💾 Memory Management</a> -->
                         </div>
                         
                         <div style="text-align: left; margin-top: 40px;">
