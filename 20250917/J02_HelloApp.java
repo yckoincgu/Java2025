@@ -2,6 +2,7 @@ import java.awt.Graphics;
 import java.awt.Frame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.awt.Color;
 
 // A new class that extends Frame to handle painting
 class HelloFrame extends Frame {
@@ -21,6 +22,7 @@ class HelloFrame extends Frame {
 
     // This method is automatically called by the AWT system to paint the frame.
     public void paint(Graphics g) {
+        g.setColor(Color.RED);
         g.drawString("Hello, AWT!", 150, 150);
     }
 }
