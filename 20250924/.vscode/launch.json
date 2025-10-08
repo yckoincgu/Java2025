@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_01JavaDataTypes01EscapeSymbols",
+            "request": "launch",
+            "mainClass": "_01JavaDataTypes01EscapeSymbols",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
             "name": "_01JavaDataTypes02ChineseChar",
             "request": "launch",
             "mainClass": "_01JavaDataTypes02ChineseChar",
