@@ -58,7 +58,7 @@ public static void main(String[] args) {
             "char", Character.BYTES, (int) Character.MIN_VALUE, (int) Character.MAX_VALUE);
         System.out.println("├─────────────┼──────────┼──────────────────────────┼──────────────────────────┤");
         System.out.printf("│ %-11s │ %-8s │ %-25s │ %-24s │\n", 
-            "char range", "", "\\u0000 ('" + Character.MIN_VALUE + "')", 
+            "escape char", "", "\\u0000 ('" + Character.MIN_VALUE + "')", 
             "\\uFFFF ('" + Character.MAX_VALUE + "')");
     }
     

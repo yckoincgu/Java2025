@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "_01JavaDataTypes02ChineseChar",
+            "request": "launch",
+            "mainClass": "_01JavaDataTypes02ChineseChar",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "_01EscapeSymbols",
+            "request": "launch",
+            "mainClass": "_01EscapeSymbols",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "UnicodeCharExplorer",
+            "request": "launch",
+            "mainClass": "UnicodeCharExplorer",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "_01JavaDataTypes",
+            "request": "launch",
+            "mainClass": "_01JavaDataTypes",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "_02JavaOperatorsReference",
+            "request": "launch",
+            "mainClass": "_02JavaOperatorsReference",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "_03JREWebDisplay",
+            "request": "launch",
+            "mainClass": "_03JREWebDisplay",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "_04JVMWebServer",
+            "request": "launch",
+            "mainClass": "_04JVMWebServer",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "_05JavaKeywordsDisplay",
+            "request": "launch",
+            "mainClass": "_05JavaKeywordsDisplay",
+            "projectName": "20250924_3c7a7145"
+        },
+        {
+            "type": "java",
+            "name": "_06CompilationVsPackageServer",
+            "request": "launch",
+            "mainClass": "_06CompilationVsPackageServer",
+            "projectName": "20250924_3c7a7145"
+        }
+    ]
+}
