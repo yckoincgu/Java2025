@@ -1,5 +1,5 @@
 
-public class Ex_01_CopyingCharacters {
+public class EX_01_CopyingCharacters {
     public static void main(String[] args) {
         
         String sentence = "You are welcome.";
