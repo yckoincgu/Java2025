@@ -11,7 +11,7 @@ public class Ex_01_CopyingCharacters {
         System.out.println("Note: A String object\r\n" + 
                         " * Once a String object is created, \r\n" + 
                         " * its contents can never be changed" + sentence);
-        System.out.println("(A). Its content will be copied by String method as below.    ");    
+        System.out.println("(A). Its content will be printed by String method as below.    ");    
         System.out.print("     ");
         for (char c : sentence.toCharArray()) System.out.print(c);
         System.out.println();  
@@ -24,5 +24,11 @@ public class Ex_01_CopyingCharacters {
         for (char c : charArray) {
             System.out.print(c);
         }
+        System.out.println("\n(C). Using a StringBuilder to modify the content.    ");
+        StringBuilder   sb = new StringBuilder(sentence);
+        sb.insert(0, "     ");
+        sb.append(" By StringBuilder");
+        System.out.println(sb.toString());
+
     }
 }
