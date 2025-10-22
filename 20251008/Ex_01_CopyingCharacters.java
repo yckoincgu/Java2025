@@ -29,6 +29,5 @@ public class EX_01_CopyingCharacters {
         sb.insert(0, "     ");
         sb.append(" By StringBuilder");
         System.out.println(sb.toString());
-
     }
 }
