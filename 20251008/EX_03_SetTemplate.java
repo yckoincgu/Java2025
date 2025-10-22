@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class EX_03_SetExample {
+public class EX_03_SetTemplate {
 
     public static void main(String[] args) {
         // 1. Declare and initialize a Set using the HashSet implementation.
@@ -9,7 +9,7 @@ public class EX_03_SetExample {
         Set<String> uniqueColors = new HashSet<>();
 
         // 2. Add elements
-        System.out.println("--- 1. Adding Elements ---");
+        System.out.println("--- 1. Adding unique, individual elements ---");
         uniqueColors.add("Red");
         uniqueColors.add("Blue");
         uniqueColors.add("Green");
