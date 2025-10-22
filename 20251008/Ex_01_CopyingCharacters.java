@@ -1,7 +1,6 @@
 
 public class EX_01_CopyingCharacters {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {        
         String sentence = "You are welcome.";
         /* sentence is a String object.
          * Once a String object is created, 
@@ -29,5 +28,6 @@ public class EX_01_CopyingCharacters {
         sb.insert(0, "     ");
         sb.append(" By StringBuilder");
         System.out.println(sb.toString());
+        System.out.println("End of EX_01_CopyingCharacters.java");
     }
 }
