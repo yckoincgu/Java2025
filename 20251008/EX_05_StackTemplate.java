@@ -1,7 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class EX_05_Stack {
+public class EX_05_StackTemplate {
 
     public static void main(String[] args) {
         // 1. Declare a Deque and use ArrayDeque for the LIFO stack behavior

@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class EX_04_QueueExample {
+public class EX_04_QueueTemplate {
 
     public static void main(String[] args) {
         // 1. Declare a Queue using the LinkedList implementation.
