@@ -1,11 +1,16 @@
 
 public class EX_01_CopyingCharacters {
-    public static void main(String[] args) {        
-        String sentence = "You are welcome.";
+    public static void main(String[] args) {  
+        String sentence = "You are welcome.";      
+        /* 1. String sentence  = "You are welcome.";
+           2. char[] charArray = new char[sentence.length()];
+           3. StringBuilder sb = new StringBuilder(sentence);
+        */    
         /* sentence is a String object.
          * Once a String object is created, 
          * its contents can never be changed.
          */
+        
         System.out.println("String object: " + sentence);
         System.out.println("Note: A String object\r\n" + 
                         " * Once a String object is created, \r\n" + 
@@ -28,6 +33,6 @@ public class EX_01_CopyingCharacters {
         sb.insert(0, "     ");
         sb.append(" By StringBuilder");
         System.out.println(sb.toString());
-        System.out.println("End of EX_01_CopyingCharacters.java");
     }
+
 }
