@@ -77,6 +77,10 @@ public class EX_02_OverloadedConstructor {
         defaultPlanet.displayInfo();
         
         System.out.println("\n--- Printing Objects using the overridden toString() ---");
+        /*
+         * If the object is not null (which mars isn't), Java implicitly 
+         * calls the object's toString() method to get its string representation.
+         */
         System.out.println("Mars Object: " + mars);
         System.out.println("Earth Object: " + earth);
     }
