@@ -14,6 +14,22 @@ public class EX_05_StackTemplate {
         documentHistory.push("Document B");
         documentHistory.push("Document C"); // Last one in
 
+        // Use a for loop to display elements ---
+        System.out.println("\n--- 2. Displaying All Elements using For-Each Loop ---");
+        System.out.print("Stack Contents (Order from Top to Bottom): [");
+        
+        // FOR-EACH loop iterates over the Deque from head (top) to tail (bottom).
+        int count = 0;
+        for (String document : documentHistory) {
+            System.out.print(document);
+            // Add comma separator for all but the last element
+            if (count < documentHistory.size() - 1) {
+                System.out.print(", ");
+            }
+            count++;
+        }
+        System.out.println("]");        
+
         System.out.println("Current Stack (Top to Bottom): " + documentHistory); 
         // Note: The toString() output might look like a Queue, but the push/pop methods enforce LIFO.
         // Output usually shows: [Document C, Document B, Document A]

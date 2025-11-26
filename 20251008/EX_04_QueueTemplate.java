@@ -42,5 +42,10 @@ public class EX_04_QueueTemplate {
         System.out.println("\n--- 4. Queue Status ---");
         System.out.println("Is the queue empty? " + customerQueue.isEmpty());
         System.out.println("Current queue size: " + customerQueue.size());
+
+        System.out.println("\nFollowings are displayed by FOR loop");
+        for (String customer : customerQueue) {
+            System.out.println("Waiting Customer: " + customer);
+        }            
     }
 }
