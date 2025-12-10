@@ -9,10 +9,10 @@ public class J03_HelloApp {
 
         J04_Frame frame = null;
         try {
-            frame = new J04_Frame(); }
-        catch (Exception e) {   e.printStackTrace();  }
-            
-        frame.setVisible(true); // Throws a NullPointerException
+            frame = new J04_Frame(); 
+            frame.setVisible(true); // Throws a NullPointerException
         }
+        catch (Exception e) {e.printStackTrace();  }
+    }
 }
 
